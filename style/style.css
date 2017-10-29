@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica;
+}
+
+header {
+    background: url(../images/banner.png) no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    width: 59%;
+    text-align: left;
+    margin-left: 20.5%;
+    margin-right: 20.5%;
+}
+
+.wrapper h1 {
+    font-size: 45px;
+    font-family: pacifico;
+    font-weight: normal;
+    padding-top: 123px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    position: relative;
+    left: -5px;
+}
+
+.wrapper h1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.wrapper p {
+    color: #ffffff;
+    font-size: 15px;
+    width: 45%;
+    line-height: 22px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.wrapper ul {
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    width: 30%;
+    padding-bottom: 145px;
+}
+
+.wrapper li {
+    width: 28%;
+}
+
+.wrapper li img {
+    width: 65%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.wrapper-main {
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.features ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.features li {
+    width: 30%;
+}
+
+.features li:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.features ul img {
+    width: 25%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.features ul h2 {
+    font-size: 17px;
+    padding-bottom: 16px;
+}
+
+.features ul p {
+    font-size: 13px;
+    color: #848484;
+    line-height: 18px;
+}
+
+.get-notified {
+    background-color: #e3e3e3;
+}
+
+.get-notified h2 {
+    font-size: 17px;
+    padding-bottom: 16px;
+}
+
+.get-notified p {
+    font-size: 13px; 
+    color: #848484;
+    line-height: 18px;
+    padding-bottom: 16px;
+}
+
+.get-notified ul {
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.get-notified li {
+    width: 45%;
+}
+
+.get-notified li:nth-child(1) {
+    padding-right: 10%;
+}
+
+.get-notified img {
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 10%;
+}
+
+input {
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 55%;
+    height: 15%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid lightgray;
+    padding-left: 15px;
+    color: #848484;
+}
+
+button {
+    color: #ffffff;
+    font-size: 13px;
+    width: 20%;
+    height: 15%;
+    margin-left: -5px;
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.testimonials {
+    position: relative;
+}
+
+.testimonials p {
+    padding-top: 50px;
+    font-size: 14px;
+    font-style: italic;
+    color: #848484;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    line-height: 20px;
+}
+
+.testimonials h2 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.testimonials ul {
+    display: flex;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.testimonials img {
+    width: 90%;
+    height: auto;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.overlay .link {
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 90%;
+    background-color: #2ecc71;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.overlay:hover .link {
+    opacity: 0.5;
+}
+
+.get-in-touch {
+    text-align: center;
+}
+
+.get-in-touch h2 {
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+
+.get-in-touch p {
+    font-size: 13px;
+    color: #848484;
+    padding-bottom: 18px;
+}
+
+.get-in-touch ul {
+    list-style: none;
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    padding-bottom: 60px;
+}
+
+.get-in-touch li {
+    width: 16.6%;
+}
+
+.get-in-touch img {
+    width: 90%;
+    height: auto;
+}
+
+.overlay-social {
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+
+.overlay-social .social-link {
+    position: absolute;
+    display: block;
+    width: 95%;
+    height: 90%;
+    background-color: #2ecc71;
+    top: 0;
+    left: 2.5%;
+    opacity: 0;
+    border-radius: 20px;
+}
+
+.overlay-social:hover .social-link {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #e3e3e3;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    width: 43%;
+    margin: 0 auto;
+}
+
+footer li {
+    padding: 40px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #848484;
+    font-size: 13px;
+}
